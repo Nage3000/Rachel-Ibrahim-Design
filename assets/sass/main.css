@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import 'fontawesome-all.min.css';
+@import '../css/fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 /*
 	Forty by HTML5 UP
@@ -2653,7 +2653,7 @@ body.is-preload #header.alt {
   display: flex;
   padding: 6em 0 2em 0;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 0 !important;
@@ -2837,7 +2837,6 @@ body.is-preload #banner > .inner {
   display: -moz-flex;
   display: -ms-flex;
   display: flex;
-  padding: 0 !important;
 }
 #contact > .inner > :nth-child(2n-1) {
   padding: 4em 3em 2em 0;
