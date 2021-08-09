@@ -45,3 +45,9 @@
 			}
 
 	}
+
+  // Changes selection coloring
+  ::selection {
+    color: _palette(fg);
+    background: _palette(accent3);
+  }

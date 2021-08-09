@@ -143,6 +143,13 @@
 			&.style4 { .logo { strong { color: _palette(accent4); } } }
 			&.style5 { .logo { strong { color: _palette(accent5); } } }
 			&.style6 { .logo { strong { color: _palette(accent6); } } }
+
+      &.background1 { background-color: _palette(accent1);}
+      &.background2 { background-color: _palette(accent2);}
+      &.background3 { background-color: _palette(accent3);}
+      &.background4 { background-color: _palette(accent4);}
+      &.background5 { background-color: _palette(accent5);}
+      &.background6 { background-color: _palette(accent6);}
 		}
 
 		body.is-preload & {

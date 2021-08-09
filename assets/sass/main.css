@@ -101,6 +101,16 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
+::-moz-selection {
+  color: #ffffff;
+  background: #ec8d81;
+}
+
+::selection {
+  color: #ffffff;
+  background: #ec8d81;
+}
+
 /* Type */
 body, input, select, textarea {
   color: #ffffff;
@@ -2574,6 +2584,24 @@ button:disabled,
 }
 #header.alt.style6 .logo strong {
   color: #87c5a4;
+}
+#header.alt.background1 {
+  background-color: #6fc3df;
+}
+#header.alt.background2 {
+  background-color: #8d82c4;
+}
+#header.alt.background3 {
+  background-color: #ec8d81;
+}
+#header.alt.background4 {
+  background-color: #e7b788;
+}
+#header.alt.background5 {
+  background-color: #8ea9e8;
+}
+#header.alt.background6 {
+  background-color: #87c5a4;
 }
 body.is-preload #header.alt {
   opacity: 0;
